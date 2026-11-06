@@ -23,7 +23,8 @@ This study implements an anomaly and behavioral detection pipeline that:
 
 ## 📂 Dataset Information
 
-The study uses the **CMU SEI CERT Insider Threat Test Dataset (Release r4.1)**:
+The study uses the **CMU SEI CERT Insider Threat Test Dataset (Release r4.1)** hosted on Carnegie Mellon University's KiltHub:
+* 🔗 **Official Dataset Link**: [CMU KiltHub - Insider Threat Test Dataset (ID: 12841247)](https://kilthub.cmu.edu/articles/dataset/Insider_Threat_Test_Dataset/12841247)
 * **Log Sources Utilized**:
   * `logon.csv` (58.7 MB): User logon, logoff, PC mappings, and timestamps.
   * `device.csv` (29.8 MB): USB flash drive insertion and removal activities.
@@ -33,7 +34,7 @@ The study uses the **CMU SEI CERT Insider Threat Test Dataset (Release r4.1)**:
   * **Scenario 2**: Unauthorized access and logon activities outside standard working hours.
   * **Scenario 3**: System administrator privilege escalation and unauthorized device access before leaving the organization.
 
-> **Note**: Due to file size limits, raw datasets (>17 GB uncompressed) are excluded from the repository. Refer to the [Dataset Setup](#dataset-setup) section for instructions on placing data files.
+> **Note**: Due to file size limits, raw datasets (>17 GB uncompressed) are excluded from the repository. You can download the dataset directly from [CMU KiltHub](https://kilthub.cmu.edu/articles/dataset/Insider_Threat_Test_Dataset/12841247). Refer to the [Dataset Setup](#3-dataset-setup) section for instructions on placing data files.
 
 ---
 
@@ -157,7 +158,8 @@ pip install -r requirements.txt
 ```
 
 ### 3. Dataset Setup
-1. Download the CERT Insider Threat Test Dataset (Release 4.1 and Answers) from [CMU SEI](https://kilthub.cmu.edu/articles/dataset/Insider_Threat_Test_Dataset/12841247).
+1. Download the CERT Insider Threat Test Dataset (Release 4.1 and Answers) from **CMU KiltHub**:
+   * **URL**: [https://kilthub.cmu.edu/articles/dataset/Insider_Threat_Test_Dataset/12841247](https://kilthub.cmu.edu/articles/dataset/Insider_Threat_Test_Dataset/12841247)
 2. Place `r4.1.tar.bz2` and `answers.tar.bz2` (or extract them) into a `dataset/` directory in the project root:
    ```text
    dataset/
