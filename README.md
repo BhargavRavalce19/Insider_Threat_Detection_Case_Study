@@ -151,8 +151,8 @@ Features ranked by odds ratio impact on malicious classification:
 ### 2. Installation
 Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
+git clone https://github.com/BhargavRavalce19/Insider_Threat_Detection_Case_Study.git
+cd Insider_Threat_Detection_Case_Study
 pip install -r requirements.txt
 ```
 
